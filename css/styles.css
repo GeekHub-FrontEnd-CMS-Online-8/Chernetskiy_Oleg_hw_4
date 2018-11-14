@@ -201,8 +201,8 @@ h1 {
 }
 .table_2 {
     margin: 0 auto;
-    border-spacing: 40px 80px;
-    width: 70%;
+    border-spacing: 40px 40px;
+    width: 60%;
 }
 .tb2 {
 
@@ -263,4 +263,12 @@ li {
     line-height: 30px;
     text-transform: uppercase;
     letter-spacing: 0.4px;
+}
+.brighten img {
+    -webkit-filter: brightness(0%);
+    opacity: 0.5;
+}
+.brighten img:hover {
+    -webkit-filter: brightness(100%);
+    opacity: 1;
 }
